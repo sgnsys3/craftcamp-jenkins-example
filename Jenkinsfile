@@ -13,7 +13,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'wow'
+                sh 'wow doge'
             }
         }
     }
