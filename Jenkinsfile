@@ -13,7 +13,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'echo wow doge eiei a'
+                sh 'echo dwow doge eiei a'
             }
         }
     }
