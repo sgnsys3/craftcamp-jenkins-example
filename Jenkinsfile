@@ -8,7 +8,7 @@ pipeline {
         }
         stage('unit-test') {
             steps {
-                sh 'kwow'
+                sh 'kjwow'
             }
         }
         stage('deploy') {
