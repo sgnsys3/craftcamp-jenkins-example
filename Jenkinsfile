@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'wow'
+                sh 'echo wow'
             }
         }
         stage('unit-test') {
             steps {
-                sh 'kjwow'
+                sh 'echo kjwow'
             }
         }
         stage('deploy') {
             steps {
-                sh 'wow doge eiei a'
+                sh 'echo wow doge eiei a'
             }
         }
     }
