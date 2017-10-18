@@ -8,7 +8,7 @@ pipeline {
         }
         stage('unit-test') {
             steps {
-                sh 'echo kxjwow'
+                sh 'echo kxxjwow'
             }
         }
         stage('deploy') {
